@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5ff;
+    color: #333;
+}
+
+header {
+    background: #171735;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #e4e4ff;
+}
+
+.hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+section h1 {
+    margin-bottom: 20px;
+    color: #292960;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills div {
+    background: #292960;
+    color: white;
+    padding: 20px 35px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #171735;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
