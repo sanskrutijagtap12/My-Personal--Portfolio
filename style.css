@@ -483,6 +483,38 @@ footer {
 }
 
 .resume-btn:hover {
+    background: #d63384;/* CONTACT SECTION */
+
+#contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.contact-container a {
+    background: #173b8f;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.contact-container a:hover {
     background: #d63384;
+    transform: translateY(-4px);
+}
     transform: translateY(-3px);
 }
